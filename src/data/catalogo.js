@@ -98,7 +98,7 @@ export const catalogoItems = [
     categoria: 'Mesas',
     dimensiones: '120 × 60 × 40 cm',
     imagenes: [
-      'https://images.unsplash.com/photo-1565191999001-551cf17fb37e?w=1200&q=85',
+      'https://images.unsplash.com/photo-1593696140826-c58b021acf8b?w=1200&q=85',
       'https://images.unsplash.com/photo-1530018607912-eff2daa1bac4?w=1200&q=85',
       'https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=1200&q=85',
       'https://images.unsplash.com/photo-1567016432779-094069958ea5?w=1200&q=85',
