@@ -104,9 +104,9 @@ export default function Catalogo() {
         </div>
       </div>
 
-      {/* Filter bar */}
-      <div style={{ maxWidth: 1280, margin: '0 auto', padding: 'clamp(20px, 3vh, 32px) clamp(24px, 5vw, 64px)', borderBottom: `1px solid ${P.border}` }}>
-        <div className="filter-bar">
+      {/* Filter bar — full bleed so scroll hides at screen edges */}
+      <div style={{ borderBottom: `1px solid ${P.border}`, padding: 'clamp(20px, 3vh, 32px) 0' }}>
+        <div className="filter-bar" style={{ paddingLeft: 'clamp(24px, 5vw, 64px)', paddingRight: 'clamp(24px, 5vw, 64px)' }}>
           {FILTERS.map(f => (
             <button key={f.id} className={`filter-btn${active === f.id ? ' active' : ''}`} onClick={() => setActive(f.id)}>
               {f.label}

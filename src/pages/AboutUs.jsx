@@ -15,7 +15,7 @@ const EQUIPO = [
   {
     nombre: 'Andrea Mora',
     rol: 'Fundadora · Dirección Creativa',
-    bio: 'Diseñadora con 12 años de experiencia en interiorismo de lujo. Convirtió su pasión por los materiales naturales en utropico studio.',
+    bio: 'Diseñadora con 12 años de experiencia en interiorismo de lujo. Convirtió su pasión por los materiales naturales en Utropico Studio.',
     foto: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?w=600&q=85',
   },
   {
@@ -137,7 +137,7 @@ export default function AboutUs() {
           </motion.div>
           <motion.div {...fade(0.1)} style={{ display: 'flex', flexDirection: 'column', gap: 20 }}>
             <p style={{ fontFamily: SANS, fontSize: 15, color: '#4A4A48', lineHeight: 1.75, margin: 0 }}>
-              utropico studio nació de esa convicción. Somos un estudio de diseño y producción de muebles artesanales con sede en Costa Rica. Cada pieza que hacemos empieza con una conversación y termina en tu espacio.
+              Utropico Studio nació de esa convicción. Somos un estudio de diseño y producción de muebles artesanales con sede en Costa Rica. Cada pieza que hacemos empieza con una conversación y termina en tu espacio.
             </p>
             <p style={{ fontFamily: SANS, fontSize: 15, color: '#4A4A48', lineHeight: 1.75, margin: 0 }}>
               No trabajamos con líneas de producción masiva. Seleccionamos los materiales uno por uno, diseñamos a medida y producimos a mano en nuestro propio taller. El resultado son piezas con carácter propio, que envejecen con dignidad.

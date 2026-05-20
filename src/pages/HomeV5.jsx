@@ -338,6 +338,7 @@ const STYLES = `
   .v5-sala-label { display: none; }
 
   @media (max-width: 767px) {
+    .v5-center-heading { text-align: left !important; }
     .v5-collections-grid { grid-template-columns: repeat(2, 1fr) !important; gap: 14px !important; }
     .v5-nav-links { display: none !important; }
     .v5-feature-content { padding: 32px 0 !important; }
@@ -460,7 +461,7 @@ export default function HomeV5() {
       >
         <div style={{ maxWidth: 1280, margin: '0 auto' }}>
           {/* Section label */}
-          <p style={{
+          <p className="v5-center-heading" style={{
             fontFamily: SANS,
             fontSize: 11,
             fontWeight: 500,
@@ -474,7 +475,7 @@ export default function HomeV5() {
           </p>
 
           {/* Heading */}
-          <h2 style={{
+          <h2 className="v5-center-heading" style={{
             fontFamily: SERIF,
             fontSize: 'clamp(28px, 4vw, 48px)',
             fontWeight: 700,
@@ -838,14 +839,14 @@ export default function HomeV5() {
         <div style={{ maxWidth: 1280, margin: '0 auto' }}>
 
           {/* Section label */}
-          <p style={{
+          <p className="v5-center-heading" style={{
             fontFamily: SANS, fontSize: 11, fontWeight: 500,
             letterSpacing: '0.28em', textTransform: 'uppercase',
             color: P.muted, textAlign: 'center', marginBottom: 12,
           }}>
             Artículo destacado
           </p>
-          <h2 style={{
+          <h2 className="v5-center-heading" style={{
             fontFamily: SERIF, fontSize: 'clamp(26px, 3.5vw, 44px)',
             fontWeight: 700, fontStyle: 'italic',
             color: P.dark, textAlign: 'center',
@@ -1053,13 +1054,14 @@ export default function HomeV5() {
               </p>
               <h2 style={{
                 fontFamily: SERIF,
-                fontSize: 'clamp(32px, 5vw, 60px)',
-                fontWeight: 900,
-                lineHeight: 1.1,
+                fontSize: 'clamp(28px, 4vw, 52px)',
+                fontWeight: 700,
+                fontStyle: 'italic',
+                lineHeight: 1.15,
                 color: P.dark,
-                letterSpacing: '-0.03em',
+                letterSpacing: '-0.01em',
               }}>
-                ¿Tenés un<br />proyecto<br />en mente?
+                ¿Tenés un proyecto en mente?
               </h2>
             </div>
 
